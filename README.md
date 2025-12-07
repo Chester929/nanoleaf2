@@ -6,4 +6,5 @@ Compared to the official nanoleaf integration this integration also supports Nan
 A pull request to Home Assistant in hanging.
 
 # Installation
-Just copy the files to the folder /config/custom_components/nanoleaf.
+Just copy the files to the folder /config/custom_components/nanoleaf2.
+
