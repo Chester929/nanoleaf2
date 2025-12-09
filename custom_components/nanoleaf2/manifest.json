@@ -4,7 +4,7 @@
   "version": "2.0.1",
   "codeowners": ["@loebi-ch", "@jacekowski", "@JaspervRijbroek", "@jonathanrobichaud4"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/nanoleaf",
+  "documentation": "https://github.com/loebi-ch/nanoleaf2/blob/main/README.md",
   "issue_tracker": "https://github.com/loebi-ch/nanoleaf2/issues",
   "homekit": {
     "models": ["NL29", "NL42", "NL47", "NL48", "NL52", "NL59", "NL69", "NL81"]
