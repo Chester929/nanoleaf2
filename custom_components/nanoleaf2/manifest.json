@@ -1,16 +1,15 @@
 {
   "domain": "nanoleaf2",
   "name": "Nanoleaf 2",
-  "version": "2.0.1",
   "codeowners": ["@loebi-ch", "@jacekowski", "@JaspervRijbroek", "@jonathanrobichaud4"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/nanoleaf",
-  "issue_tracker": "https://github.com/loebi-ch/nanoleaf2/issues",
+  "documentation": "https://github.com/loebi-ch/nanoleaf2/blob/main/README.md",
   "homekit": {
     "models": ["NL29", "NL42", "NL47", "NL48", "NL52", "NL59", "NL69", "NL81"]
   },
   "integration_type": "hub",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/loebi-ch/nanoleaf2/issues",
   "loggers": ["aionanoleaf2"],
   "requirements": ["aionanoleaf2>=1.0.2"],
   "ssdp": [
@@ -33,5 +32,6 @@
       "st": "inanoleaf:nl81"
     }
   ],
+  "version": "2.0.1",
   "zeroconf": ["_nanoleafms._tcp.local.", "_nanoleafapi._tcp.local."]
 }
