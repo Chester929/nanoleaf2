@@ -14,11 +14,14 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: "Checkout the repository"
+        uses: "actions/checkout@v4.1.0"
+
       - name: "Adjust version number"
         shell: "bash"
         run: |
           yq -i -o json '.version="${{ github.event.release.tag_name }}"' \
-            "${{ runner.workspace }}/custom_components/nanoleaf2/manifest.json"
+            "${{ github.workspace }}/custom_components/nanoleaf2/manifest.json"
 
       - name: "ZIP the integration directory"
         shell: "bash"
