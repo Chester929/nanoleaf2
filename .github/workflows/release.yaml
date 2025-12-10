@@ -18,7 +18,7 @@ jobs:
         shell: "bash"
         run: |
           yq -i -o json '.version="${{ github.event.release.tag_name }}"' \
-            "${{ github.workspace }}/custom_components/nanoleaf2/manifest.json"
+            "${{ runner.workspace }}/custom_components/nanoleaf2/manifest.json"
 
       - name: "ZIP the integration directory"
         shell: "bash"
